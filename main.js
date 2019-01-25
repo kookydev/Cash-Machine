@@ -71,12 +71,12 @@ const giveMeCash = (accountNo, pin, cashAmount) => {
     for (i=0; i<accounts.length; i++) {
       if(accounts[i].number === accountNo){
         accountKey = i
-        return true
+        return true;
       }
     }
   };
     
-  let accountKey = -1
+  let accountKey = -1;
 
   const checkPin = () => {
     var pinCh = parseInt(prompt("Please enter your PIN"), 10);
@@ -126,4 +126,4 @@ const giveMeCash = (accountNo, pin, cashAmount) => {
   
 };
 
-giveMeCash();
+// document.getElementById("button1").onclick = giveMeCash();
