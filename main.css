@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.screen {
+    padding: -2px;
+    height: 500px;
+    width: 600px;
+    background-image: url("/assets/screen-overlay.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border: 2px solid red;
+    border-radius: 20%;
+}
