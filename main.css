@@ -100,9 +100,7 @@ background-size:16px 16px;
 }
 
 .button {
-    width: 60px;
-    height: 50px;
-    
+
     border-radius: 20%;
     font: bold 2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
     text-align: center;
@@ -131,4 +129,12 @@ background-size:16px 16px;
 
 .func {
     font-size: 1.5em !important;
+}
+
+.canc {
+    color: rgb(204, 0, 0) !important;
+}
+
+.ent {
+    color: rgb(0, 107, 0);
 }
